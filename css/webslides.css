@@ -3310,7 +3310,7 @@ h1 span {
 Header/Nav
 =========================================== */
 header[role='banner'] {
-  background-color: #fff; }
+  }
 
 .logo a {
   color: inherit; }
