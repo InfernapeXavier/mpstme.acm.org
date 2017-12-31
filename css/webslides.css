@@ -1887,7 +1887,10 @@ About, Philosophy...
   margin: 0 auto; }
 
 .card-50 .metrics li {
-  width: 50%; }
+  width: 50%;
+ }
+
+
 
 /*=====================================================
 6.5 Specs/Items: <ul class="flexblock specs">
