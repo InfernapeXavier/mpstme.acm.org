@@ -28,9 +28,35 @@
     <meta name="mobile-web-app-capable" content="yes" class="vertical">
     <meta name="theme-color" content="#000000">
 
+    <!--firebase-->
+
+    <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyDbjHlM0gBR6ju8vpsiwblrDBVyjqIWTj8",
+            authDomain: "website-3dd3a.firebaseapp.com",
+            databaseURL: "https://website-3dd3a.firebaseio.com",
+            projectId: "website-3dd3a",
+            storageBucket: "website-3dd3a.appspot.com",
+            messagingSenderId: "667046136607"
+        };
+        firebase.initializeApp(config);
+    </script>
+
     <style>
-    a:active {color:##D32F2F}
-    a:visited{color:#000000}
+    a:active {
+      color:#D32F2F;
+    }
+    a:link {
+      color:#D32F2F
+    }
+    a:visited {
+      color:#000000;
+    }
+    a:hover {
+      color:#FFFFFF;
+    }
     </style>
 
     <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
@@ -85,7 +111,7 @@
         <!--<div class="wrap size-50 aligncenter   ">
             <blockquote>
               <p>"ACM Is Fun #Le Random Text."</p>
-              <p><cite> <img class="avatar-40" src="https://firebasestorage.googleapis.com/v0/b/website-3dd3a.appspot.com/o/profiles%2Fmihir.JPG?alt=media&token=8b144596-e35f-4216-b314-87fcb4d8046b" alt="Avatar">Mihir Saxena</cite></p>
+              <p><cite> <img class="avatar-40" src="images/core/mihir.JPG" alt="Avatar">Mihir Saxena</cite></p>
             </blockquote>
         </div>
         <!-- .end .wrap -->
@@ -94,7 +120,7 @@
         <!--<div class="wrap size-50 aligncenter   ">
             <blockquote>
               <p>"ACM Is Fun #Le Random Text."</p>
-              <p><cite> <img class="avatar-40" src="https://firebasestorage.googleapis.com/v0/b/website-3dd3a.appspot.com/o/profiles%2Fshubham.JPG?alt=media&token=1d4b557d-6e11-4ffc-8899-0a2efa2148ac" alt="Avatar">Shubham Agarwal</cite></p>
+              <p><cite> <img class="avatar-40" src="images/core/shubham.JPG" alt="Avatar">Shubham Agarwal</cite></p>
             </blockquote>
         </div>
         <!-- .end .wrap -->
@@ -103,7 +129,7 @@
         <div class="wrap size-50 aligncenter   ">
             <blockquote>
               <p>"ACM helped me find what I'm good at while giving me endless opportunities. Meeting people who share the same passion was a cherry on the top of the cake."</p>
-              <p><cite> <img class="avatar-40" src="https://firebasestorage.googleapis.com/v0/b/website-3dd3a.appspot.com/o/profiles%2Fkavita.JPG?alt=media&token=f48e76b0-8b05-41e2-91c6-bdc9c67c625a" alt="Avatar">Kavita Parmar</cite></p>
+              <p><cite> <img class="avatar-40" src="images/core/kavita.JPG" alt="Avatar">Kavita Parmar</cite></p>
             </blockquote>
         </div>
         <!-- .end .wrap -->
@@ -131,7 +157,7 @@
           <ul class="flexblock gallery   ">
             <li>
                 <figure>
-                  <img alt="Kunal Mehta " src="https://firebasestorage.googleapis.com/v0/b/website-3dd3a.appspot.com/o/profiles%2Fkunal.jpg?alt=media&token=8d633ab2-5e51-4589-813e-e24ed343c556">
+                  <img alt="Kunal Mehta " src="images/core/kunal.jpg">
                   <figcaption>
                     <h2>Kunal Mehta</h2>
                     <p>Chairperson</p>
@@ -140,7 +166,7 @@
             </li>
             <li>
                 <figure>
-                  <img alt="Priyanka Dhapare" src="https://firebasestorage.googleapis.com/v0/b/website-3dd3a.appspot.com/o/profiles%2Fpriyanka.jpg?alt=media&token=13bddbe4-3102-4ec8-8740-2c3cab3434a8">
+                  <img alt="Priyanka Dhapare" src="images/core/priyanka.jpg">
                   <figcaption>
                     <h2>Priyanka Dhapare</h2>
                     <p>Vice Chair</p>
@@ -149,7 +175,7 @@
             </li>
             <li>
                 <figure>
-                  <img alt="Adwait Aralkar" src="https://firebasestorage.googleapis.com/v0/b/website-3dd3a.appspot.com/o/profiles%2Fadwait.jpg?alt=media&token=230d276a-6649-495a-b2de-07aca823b4ac">
+                  <img alt="Adwait Aralkar" src="images/core/adwait.jpg">
                   <figcaption>
                     <h2>Adwait Aralkar</h2>
                     <p>Treasurer</p>
@@ -158,7 +184,7 @@
             </li>
             <li>
                 <figure>
-                  <img alt="Thumbnail" src="https://firebasestorage.googleapis.com/v0/b/website-3dd3a.appspot.com/o/profiles%2Fnamrata.jpg?alt=media&token=cb299c98-b93e-447d-a6da-6fb7324f952c">
+                  <img alt="Thumbnail" src="images/core/namrata.jpg">
                   <figcaption>
                     <h2>Namrata Jangid</h2>
                     <p>Outreach Manager</p>
@@ -235,7 +261,7 @@
           <div class="grid vertical-align   ">
             <div class="column">
               <figure>
-                <img src="https://firebasestorage.googleapis.com/v0/b/website-3dd3a.appspot.com/o/nishant_sarvesh.jpg?alt=media&token=7d601762-f4ad-4c5f-922e-0c7d5d703a5e" alt="Friends">
+                <img src="images/nishant_sarvesh.jpg" alt="Friends">
               </figure>
             </div>
             <!-- end column-->
@@ -285,10 +311,10 @@
 
       <section class="fullscreen">
         <div class="embed dark">
-          <video autoplay loop poster="https://firebasestorage.googleapis.com/v0/b/website-3dd3a.appspot.com/o/hoc_poster.JPG?alt=media&token=b4712556-2fa7-4032-9b5e-9cf682ea2ade">
-            <source src="https://firebasestorage.googleapis.com/v0/b/website-3dd3a.appspot.com/o/CWS.mp4?alt=media&token=a4ecc2c2-6f8e-4c52-abd7-6b4cb3ea06f2" type="video/mp4">
+          <video autoplay loop poster="/images/hoc_poster.JPG">
+            <source src="images/CWS.mp4" type="video/mp4">
           </video>
-        </div> -->
+        </div>
         <!-- .end .embed -->
       </section>
 
@@ -304,7 +330,7 @@
         <div class="card-50">
           <div class="card-50">
             <figure>
-              <img src="https://firebasestorage.googleapis.com/v0/b/website-3dd3a.appspot.com/o/ethical_hacking.jpg?alt=media&token=7ee13be7-6418-4b51-8f49-c16ad795489a" alt="Ethical Hacking">
+              <img src="images/events/ethical_hacking.jpg" alt="Ethical Hacking">
               <figcaption>
                   <i class="fa fa-camera" aria-hidden="true"></i>
                   Namrata Bhartiya (Photography)
@@ -334,7 +360,7 @@
         <div class="card-50">
           <div class="card-50 bg-gray">
             <figure>
-              <img src="https://firebasestorage.googleapis.com/v0/b/website-3dd3a.appspot.com/o/gd.JPG?alt=media&token=1fe330a3-8f4c-4c92-91fb-c3bc50f19574" alt="Ethical Hacking">
+              <img src="images/events/gd.JPG" alt="Game Development">
               <figcaption>
                   <i class="fa fa-camera" aria-hidden="true"></i>
                   Namrata Bhartiya (Photography)
@@ -369,7 +395,7 @@
         <div class="card-50">
           <div class="card-50 bg-white">
             <figure>
-              <img src="https://firebasestorage.googleapis.com/v0/b/website-3dd3a.appspot.com/o/c_ws.jpg?alt=media&token=5e35f756-d87d-4730-96a0-2974dbec0bc8" alt="C Workshop">
+              <img src="images/events/c_ws.jpg" alt="C Workshop">
               <figcaption>
                   <i class="fa fa-camera" aria-hidden="true"></i>
                   Namrata Bhartiya (Photography)
@@ -404,7 +430,7 @@
         <div class="card-50">
           <div class="card-50">
             <figure>
-              <img src="https://firebasestorage.googleapis.com/v0/b/website-3dd3a.appspot.com/o/hoc.JPG?alt=media&token=8c3e3085-056c-4320-8675-bae5225504a8" alt="Hour Of Code">
+              <img src="images/events/hoc.JPG" alt="Hour Of Code">
               <figcaption>
                   <i class="fa fa-camera" aria-hidden="true"></i>
                   Namrata Jangid (Outreach Manager)
@@ -490,6 +516,17 @@
           <p><code>They Keep us Up and Running</code></p>
           <ul class="flexblock clients">
             <li>
+              <a href="http://get.tech/" target="_blank" title=".Tech Domains">
+                <figure>
+                  <img class="" src="images/logos/dottech.svg" style="height: 8em" alt=".tech Domains">
+                  <figcaption>
+                    <h3>Title</h3>
+                    <p>Sponsor</p>
+                  </figcaption>
+                </figure>
+              </a>
+            </li>
+            <li>
               <a href="https://www.beatsbydre.com/" target="_blank" title="Beats by Dr. Dre">
                 <figure>
                   <img class="" src="images/logos/beats.svg" style="height: 8em" alt="Beats by Dr. Dre">
@@ -559,17 +596,6 @@
               <a href="https://www.facebook.com/MyCroyance/" target="_blank" title="MyCroyance">
                 <figure>
                   <img class="" src="images/logos/mycroyance.svg" style="height: 8em" alt="MyCroyance">
-                  <figcaption>
-                    <h3>Event</h3>
-                    <p>Sponsor</p>
-                  </figcaption>
-                </figure>
-              </a>
-            </li>
-            <li>
-              <a href="http://pehchaanindia.com/" target="_blank" title="Pehchaan India">
-                <figure>
-                  <img class="" src="images/logos/pechaanindia.svg" style="height: 8em" alt="Pehchaan India">
                   <figcaption>
                     <h3>Event</h3>
                     <p>Sponsor</p>
